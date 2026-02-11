@@ -17,3 +17,9 @@
 - [Jira 이슈 컨벤션](https://www.notion.so/Jira-2eafc74069a680cf9071c4e799523901?source=copy_link)
 - [그라운드 룰](https://www.notion.so/2eafc74069a680ab86c0c0e398e371ab?source=copy_link)
 - [기술 문서 작성 룰](https://www.notion.so/2eafc74069a6807ba7cff1feca1a83d1?source=copy_link)
+
+## 💁‍♂️ 프로젝트 팀원
+| **Frontend** | **Backend** | **WebRTC** | **AI** | **AI/Infra** | **PM/Infra** |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| ![](https://github.com/jeongunun.png?width=120&height=120) | ![](https://github.com/kz770.png??width=120&height=120) | ![](https://github.com/gahuily.png??width=120&height=120) | ![](https://github.com/Dae12-Han.png??width=120&height=120) | ![](https://github.com/sweetpotatolove.png??width=120&height=120) | ![](https://github.com/Thedduro.png??width=120&height=120) |
+| [석정운](https://github.com/jeongunun) | [유현진](https://github.com/kz770) | [한가희](https://github.com/gahuily) | [김소원](https://github.com/Dae12-Han) | [박사랑](https://github.com/sweetpotatolove) | [임선우](https://github.com/Thedduro) |
