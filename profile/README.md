@@ -8,8 +8,9 @@
 ## 🏗 통합 시스템 아키텍처 (Integrated Architecture)
 
 바르미는 **분산 서비스 아키텍처**를 기반으로 실시간성(WebRTC)과 고부하 연산(AI)을 동시에 처리합니다.
-
-<img width="1601" height="1416" alt="overview" src="https://github.com/user-attachments/assets/70ebe77f-091b-41dc-af29-9db754cc55b8" />
+<div style="text-align: center;">
+  <img src="https://github.com/user-attachments/assets/20bbf523-e38e-437d-96f6-366b5565273a" alt="바르미 아키텍처">
+</div>
 
 ---
 
