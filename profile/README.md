@@ -17,12 +17,12 @@
 
 | 모듈명 | 주요 기술 스택 | 핵심 역할 |
 | :--- | :--- | :--- |
-| **[Backend](./backend)** | Java 17, Spring Boot, JPA | **지능형 오케스트레이터**: 유저 관리, AI 작업 스케줄링, 데이터 합성 |
-| **[Frontend](./frontend)** | React, Vite, Axios | **인터랙티브 UI**: 오디오 전처리(WAV 변환), 실시간 화상 UI, 발음 시각화 |
-| **[AI Gateway](./ai-gateway)** | Python, FastAPI, RabbitMQ | **AI 전용 진입점**: GPU 서버 부하 분산, 메시징 큐 컨슈머, 결과 퍼블리싱 |
+| **[Backend](https://github.com/BarmiSpeechLab/backend)** | Java 17, Spring Boot, JPA | **지능형 오케스트레이터**: 유저 관리, AI 작업 스케줄링, 데이터 합성 |
+| **[Frontend](https://github.com/BarmiSpeechLab/frontend)** | React, Vite, Axios | **인터랙티브 UI**: 오디오 전처리(WAV 변환), 실시간 화상 UI, 발음 시각화 |
+| **[AI Gateway](https://github.com/BarmiSpeechLab/ai-gateway)** | Python, FastAPI, RabbitMQ | **AI 전용 진입점**: GPU 서버 부하 분산, 메시징 큐 컨슈머, 결과 퍼블리싱 |
 | **[AI Model](./AI)** | PyTorch, HuggingFace | **핵심 지능**: Wav2Vec2 기반 음소 단위(Phoneme) 발음 오류 검사 모델 |
-| **[Docs](./docs)** | Markdown, Notion | **문서화 허브**: 시스템 설계서, API 명세서, 팀 컨벤션 관리 |
-| **[Infra](./infra)** | Docker, Nginx, RabbitMQ | **인프라 자동화**: 서비스 컨테이너화 및 리버스 프록시 설정, 작업 큐 관리 |
+| **[Docs](https://github.com/BarmiSpeechLab/docs)** | Markdown, Notion | **문서화 허브**: 시스템 설계서, API 명세서, 팀 컨벤션 관리 |
+| **[Infra](https://github.com/BarmiSpeechLab/infra)** | Docker, Nginx, RabbitMQ | **인프라 자동화**: 서비스 컨테이너화 및 리버스 프록시 설정, 작업 큐 관리 |
 
 ---
 
@@ -38,6 +38,22 @@
 ### 2. 실시간 WebRTC 코칭 (The "Live" Experience)
 - **OpenVidu 서버 사이드 제어**: 백엔드에서 보안 토큰을 동적으로 생성하여 무단 접속을 차단합니다.
 - **실시간 시그널링**: 튜터와 학생 간의 음성/영상을 넘어, **웹소켓 시그널**을 통한 실시간 자막(STT) 및 리포트 공유 기능을 제공합니다.
+
+---
+## 사용 설명
+### 회원가입/로그인
+
+### 메인페이지
+
+### AI 발음 분석
+
+### 회화연습
+
+### 리포트 기능
+
+### 튜터링
+
+
 
 ---
 
