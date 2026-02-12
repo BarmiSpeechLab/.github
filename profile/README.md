@@ -22,7 +22,7 @@
 | **[AI Gateway](./ai-gateway)** | Python, FastAPI, RabbitMQ | **AI 전용 진입점**: GPU 서버 부하 분산, 메시징 큐 컨슈머, 결과 퍼블리싱 |
 | **[AI Model](./AI)** | PyTorch, HuggingFace | **핵심 지능**: Wav2Vec2 기반 음소 단위(Phoneme) 발음 오류 검사 모델 |
 | **[Docs](./docs)** | Markdown, Notion | **문서화 허브**: 시스템 설계서, API 명세서, 팀 컨벤션 관리 |
-| **[Infra](./infra)** | Docker, Nginx | **인프라 자동화**: 서비스 컨테이너화 및 리버스 프록시 설정 |
+| **[Infra](./infra)** | Docker, Nginx, RabbitMQ | **인프라 자동화**: 서비스 컨테이너화 및 리버스 프록시 설정, 작업 큐 관리 |
 
 ---
 
@@ -60,7 +60,7 @@ docker-compose up -d --build
 ## 🎓 프로젝트의 기술적 지향점
 - **AI-Optimized Infrastructure**: AI 엔진의 부하와 서비스 로직을 완벽히 격리하여 안정성을 확보했습니다.
 - **Micro-Interaction**: 지연 시간이 긴 AI 연산 과중 속에서도 사용자 중심의 즉각적인 응답 체계를 구축했습니다.
-- **Engineering Depth**: 단순 CRUD를 넘어, 다양한 언어(Java, Python, JS)와 미들웨어(RabbitMQ, Redis, OpenVidu)의 유기적인 조합을 실무적으로 풀어냈습니다.
+- **Engineering Depth**: 단순 CRUD를 넘어, 다양한 언어(Java, Python, JS)와 미들웨어(RabbitMQ, OpenVidu)의 유기적인 조합을 실무적으로 풀어냈습니다.
 
 ---
 
