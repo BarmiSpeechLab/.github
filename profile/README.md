@@ -1,27 +1,20 @@
-> # 🎙️ 바르미 (Barmi)
+# 🎙️ 바르미 (Barmi)
 
-**바르미(Barmi)** 는 청각장애인을 위한 **AI 기반 영어 발음 교정 및 실시간 튜터링 플랫폼**입니다.  
+> **바르미(Barmi)** 는 청각장애인을 위한 **AI 기반 영어 발음 교정 및 실시간 튜터링 플랫폼**입니다.  
 본 레포지토리는 서비스의 전체 시스템을 아우르는 마스터 저장소로, 각 모듈간의 유기적인 결합과 통합 아키렉처를 설명합니다.
 
----
+
 ## 🔎 바르미 기능 살펴보기
 
-### 1. 홈화면 진입
+### 홈화면 진입 | 로그인 | 튜토리얼
+![intro](./인트로.gif)
 
-### 2. 로그인
+### 발음 학습하기
+![intro](./발음학습.gif)
 
-### 3. 튜토리얼
+### 회화 연습 | 리포트 기능
+![intro](./회화연습.gif)
 
-### 4. 홈화면
-
-### 5. 학습하기
-
-### 6. 회화 연습
-
-### 7. 리포트 기능
-
-### 8. 튜터링 기능
----
 
 ## 🏗 통합 서비스 아키텍처
 
@@ -30,7 +23,7 @@
   <img src="https://github.com/user-attachments/assets/20bbf523-e38e-437d-96f6-366b5565273a" alt="바르미 아키텍처">
 </div>
 
----
+
 
 ## 📂 저장소 구성 가이드
 
@@ -45,7 +38,7 @@
 | **[Docs](https://github.com/BarmiSpeechLab/docs)** | Markdown, Notion | **문서화 허브**: 시스템 설계서, API 명세서, 팀 컨벤션 관리 |
 | **[Infra](https://github.com/BarmiSpeechLab/infra)** | Docker, Nginx, RabbitMQ | **인프라 자동화**: 서비스 컨테이너화 및 리버스 프록시 설정, 작업 큐 관리 |
 
----
+
 
 ## 🚀 서비스 핵심 가치 체인
 
@@ -59,7 +52,7 @@
 ### 2. 실시간 WebRTC 코칭
 - **OpenVidu 서버 사이드 제어**: 백엔드에서 보안 토큰을 동적으로 생성하여 무단 접속을 차단합니다.
 - **실시간 시그널링**: 튜터와 학생 간의 음성/영상을 넘어, **웹소켓 시그널**을 통한 실시간 자막(STT) 및 리포트 공유 기능을 제공합니다.
----
+
 
 ## 🛠 실행 및 설치 (Getting Started)
 
@@ -73,28 +66,34 @@ docker-compose up -d --build
 **주요 접속 정보:**
 - **Frontend**: `http://localhost:3000`
 - **Backend API**: `http://localhost:8080/swagger-ui/index.html`
-- **RabbitMQ Dashboard**: `http://localhost:15672` (ID/PW: .env 설정 참조)
+- **RabbitMQ Dashboard**: `http://localhost:15672`
 
----
+
 
 ## 🎓 프로젝트의 기술적 지향점
 - **AI-Optimized Infrastructure**: AI 엔진의 부하와 서비스 로직을 완벽히 격리하여 안정성을 확보했습니다.
 - **Micro-Interaction**: 지연 시간이 긴 AI 연산 과중 속에서도 사용자 중심의 즉각적인 응답 체계를 구축했습니다.
 - **Engineering Depth**: 단순 CRUD를 넘어, 다양한 언어(Java, Python, JS)와 미들웨어(RabbitMQ, OpenVidu)의 유기적인 조합을 실무적으로 풀어냈습니다.
 
----
+
 
 ## 📑 기술개발문서
+> 더욱 자세한 기술소개는 각 레포지토리별 README에 작성이 되어 있습니다.
+- [서비스 기능 및 플로우 차트](https://www.notion.so/2e8fc74069a6808d9b08e490ed30c114?source=copy_link)
+- [전체 아키텍처 설계서](https://www.notion.so/2effc74069a680268d4bc0623d419bd4?source=copy_link
+)
 - [[WebRTC] OpenVidu 설계](https://www.notion.so/WebRTC-OpenVidu-2f4fc74069a68086a278f420bd0d8a55?source=copy_link)
 - [학습 커리큘럼 설계](https://www.notion.so/2f4fc74069a680a586bfcf2cdac6da38?source=copy_link)
 
+
+
 ## 👥 협업 컨벤션 
-### 📄 Git 협업
+### Git 협업
 - [브랜치 → 커밋/PR WorkFlow](https://www.notion.so/PR-WorkFlow-2eafc74069a680c88429c9052440d470?source=copy_link)
 - [Branch 전략](https://www.notion.so/Branch-2defc74069a6807e806be81f1e28627b?source=copy_link)
 - [Git 커밋 컨벤션](https://www.notion.so/Git-2eafc74069a68056b085d7e44cefcef0?source=copy_link)
 - [Pull Request 전략](https://www.notion.so/Pull-Request-2eafc74069a68007a9aedecce45cd6bc?source=copy_link)
-### 📄 팀 협업
+### 팀 협업
 - [Jira 이슈 컨벤션](https://www.notion.so/Jira-2eafc74069a680cf9071c4e799523901?source=copy_link)
 - [그라운드 룰](https://www.notion.so/2eafc74069a680ab86c0c0e398e371ab?source=copy_link)
 - [기술 문서 작성 룰](https://www.notion.so/2eafc74069a6807ba7cff1feca1a83d1?source=copy_link)
