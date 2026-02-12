@@ -20,7 +20,7 @@
 
 | 모듈명 | 주요 기술 스택 | 핵심 역할 |
 | :--- | :--- | :--- |
-| **[Backend](https://github.com/BarmiSpeechLab/backend)** | Java 17, Spring Boot, JPA | **서비스 코**: 도메인 비즈니스 로직, 사용자 데이터 관리, AI 분석 작업 발행 |
+| **[Backend](https://github.com/BarmiSpeechLab/backend)** | Java 17, Spring Boot, JPA | **서비스 코어**: 도메인 비즈니스 로직, 사용자 데이터 관리, AI 분석 작업 발행 |
 | **[Frontend](https://github.com/BarmiSpeechLab/frontend)** | React, Vite, Axios | **인터랙티브 UI**: 오디오 전처리(WAV 변환), 실시간 화상 UI, 발음 시각화 |
 | **[AI Gateway](https://github.com/BarmiSpeechLab/ai-gateway)** | Python, FastAPI, RabbitMQ | **AI 오케스트레이터**: 분석 파이프라인 제어, LLM 기반 데이터 합성 및 결과 취합, 결과 퍼블리싱 |
 | **[AI Model](https://faceted-animantarx-5f1.notion.site/fine-tuning?source=copy_link)** | PyTorch, HuggingFace | **핵심 지능**: Wav2Vec2 기반 음소 단위(Phoneme) 발음 오류 검사 모델 |
