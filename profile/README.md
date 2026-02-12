@@ -80,8 +80,8 @@ docker-compose up -d --build
 ## 📑 기술개발문서
 > 더욱 자세한 기술소개는 각 레포지토리별 README에 작성이 되어 있습니다.
 - [서비스 기능 및 플로우 차트](https://www.notion.so/2e8fc74069a6808d9b08e490ed30c114?source=copy_link)
-- [전체 아키텍처 설계서](https://www.notion.so/2effc74069a680268d4bc0623d419bd4?source=copy_link
-)
+- [전체 아키텍처 설계서](https://www.notion.so/2effc74069a680268d4bc0623d419bd4?source=copy_link)
+- [유저 테스트 가이드](https://www.notion.so/2fffc74069a6804bafa0dad307cfe7ea?source=copy_link)
 - [[WebRTC] OpenVidu 설계](https://www.notion.so/WebRTC-OpenVidu-2f4fc74069a68086a278f420bd0d8a55?source=copy_link)
 - [학습 커리큘럼 설계](https://www.notion.so/2f4fc74069a680a586bfcf2cdac6da38?source=copy_link)
 
