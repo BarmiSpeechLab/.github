@@ -53,7 +53,7 @@
 | **[Backend](https://github.com/BarmiSpeechLab/backend)** | Java 17, Spring Boot, JPA | **서비스 코어**: 도메인 비즈니스 로직, 사용자 데이터 관리, AI 분석 작업 발행 |
 | **[Frontend](https://github.com/BarmiSpeechLab/frontend)** | React, Vite, Axios | **인터랙티브 UI**: 오디오 전처리(WAV 변환), 실시간 화상 UI, 발음 시각화 |
 | **[AI Gateway](https://github.com/BarmiSpeechLab/ai-gateway)** | Python, FastAPI, RabbitMQ | **AI 오케스트레이터**: 분석 파이프라인 제어, LLM 기반 데이터 합성 및 결과 취합, 결과 퍼블리싱 |
-| **[AI Model](https://faceted-animantarx-5f1.notion.site/fine-tuning?source=copy_link)** | PyTorch, HuggingFace | **파인튜닝 모델**: Wav2Vec2 기반 음소 단위(Phoneme) 발음 오류 검사 모델 |
+| **[AI Model](https://github.com/BarmiSpeechLab/ai)** | PyTorch, HuggingFace | **파인튜닝 모델**: Wav2Vec2 기반 음소 단위(Phoneme) 발음 오류 검사 모델 |
 | **[Docs](https://github.com/BarmiSpeechLab/docs)** | Markdown, Notion | **문서화 허브**: 시스템 설계서, API 명세서, 팀 컨벤션 관리 |
 | **[Infra](https://github.com/BarmiSpeechLab/infra)** | Docker, Nginx, RabbitMQ | **인프라 자동화**: 서비스 컨테이너화 및 리버스 프록시 설정, 작업 큐 관리 |
 
@@ -103,6 +103,7 @@ docker-compose up -d --build
 - [유저 테스트 가이드](https://www.notion.so/2fffc74069a6804bafa0dad307cfe7ea?source=copy_link)
 - [[WebRTC] OpenVidu 설계](https://www.notion.so/WebRTC-OpenVidu-2f4fc74069a68086a278f420bd0d8a55?source=copy_link)
 - [학습 커리큘럼 설계](https://www.notion.so/2f4fc74069a680a586bfcf2cdac6da38?source=copy_link)
+- [Wav2Vec2 기반 L2-Arctic 음소 단위 발음 오류 검출 Fine-Tuning](https://www.notion.so/Wav2Vec2-L2-Arctic-Fine-Tuning-2f2fc74069a6801e95eec3d8d18b7e7d?source=copy_link)
 
 
 
